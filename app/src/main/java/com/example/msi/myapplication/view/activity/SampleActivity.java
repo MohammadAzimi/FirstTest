@@ -53,7 +53,6 @@ public class SampleActivity extends AppCompatActivity {
         btnShowDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 AlertDialog.Builder builder = new AlertDialog.Builder(SampleActivity.this);
                 builder.setTitle("Title")
                         .setMessage("You have to choose one of the keys!\n" +
